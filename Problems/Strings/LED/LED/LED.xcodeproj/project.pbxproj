@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B3D78AF227B9B0E5008B0D87 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D78AF127B9B0E5008B0D87 /* main.swift */; };
+		B3D78AF927B9B258008B0D87 /* TestCasesCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D78AF827B9B258008B0D87 /* TestCasesCollector.swift */; };
+		B3D78AFB27B9B4D0008B0D87 /* LedCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D78AFA27B9B4D0008B0D87 /* LedCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		B3D78AEE27B9B0E5008B0D87 /* LED */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LED; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D78AF127B9B0E5008B0D87 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3D78AF827B9B258008B0D87 /* TestCasesCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCasesCollector.swift; sourceTree = "<group>"; };
+		B3D78AFA27B9B4D0008B0D87 /* LedCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				B3D78AF127B9B0E5008B0D87 /* main.swift */,
+				B3D78AF827B9B258008B0D87 /* TestCasesCollector.swift */,
+				B3D78AFA27B9B4D0008B0D87 /* LedCounter.swift */,
 			);
 			path = LED;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D78AFB27B9B4D0008B0D87 /* LedCounter.swift in Sources */,
 				B3D78AF227B9B0E5008B0D87 /* main.swift in Sources */,
+				B3D78AF927B9B258008B0D87 /* TestCasesCollector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
